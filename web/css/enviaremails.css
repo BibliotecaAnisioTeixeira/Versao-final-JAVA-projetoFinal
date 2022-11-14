@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #494949;
+}
+
+.page-content{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    color:#f0f0f0;
+    text-transform: uppercase;
+    font-size:30px;
+}
+
+.form-detail{
+    width:500px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    gap:25px;
+}
+
+.input-text{
+    width:100%;
+    border:none;
+    outline:none;
+    resize: none;
+    padding:15px;
+    border-radius:8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    color:#1e1e1e;
+    background:#c7c7c7;
+    margin-top:8px;
+}
+
+.input-text::placeholder{
+    color:#444;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+}
+
+.label{
+    color:#F0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    height:45px;
+    border-radius:50px;
+    background:#1e1e1e;
+    width:200px;
+    color:#c7c7c7;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    transition:0.7s;
+}
+
+.btn:hover{
+    background:#c7c7c7;
+    color:#1e1e1e;
+}
+
+.textarea{
+    width:600px;
+     border:none;
+    outline:none;
+    resize: none;
+    padding:15px;
+    border-radius:8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    color:#1e1e1e;
+    background:#c7c7c7;
+    margin-top:8px;
+}
